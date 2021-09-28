@@ -1,0 +1,127 @@
+#reimbursement-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    width: 894px;
+}
+
+form input, form select {
+    margin-right: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.card {
+    margin-bottom: 10px;
+    padding: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-body {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.status-type, .buttons {
+    font-size: 10px;
+    height: 100%;
+    width: 100px;
+}
+
+.description {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 0px;
+    width: 140px;
+}
+
+.status-type p, .buttons p {
+    position: absolute;
+}
+
+.submitted {
+    bottom: 2px;
+    width: 160px;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: bold;
+    width: 140px;
+}
+
+.author {
+    top: 2px;
+}
+
+.resolved {
+    bottom: 2px;
+}
+
+.resolver {
+    top: 2px;
+}
+
+
+
+.status-type p {
+    left: 30px;
+}
+
+.buttons p {
+    right: 25px;
+    text-align: left;
+    width: 160px;
+}
+
+.buttons button {
+    margin-left: 5px;
+}
+
+.status, .type {
+    font-size: 30px;
+}
+
+.status {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.buttons {
+    justify-self: flex-end;
+    margin-left: 75px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.grey {
+    color: grey;
+}
