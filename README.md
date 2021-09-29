@@ -1,5 +1,5 @@
-# Team Energy Social Network
-Revature Project 2 Repository
+# Expense Reimbursement System
+Revature Project 1 Repository
 
 /* Author */
 *  Michael Archer
